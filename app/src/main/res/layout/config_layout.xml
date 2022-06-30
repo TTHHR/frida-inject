@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/nameText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="JOB名称（唯一）"/>
+    <EditText
+        android:id="@+id/jsPathText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="js路径"/>
+    <EditText
+        android:id="@+id/packageNameText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="目标APP名"/>
+
+    <CheckBox
+        android:id="@+id/logToFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="储存LOG到文件" />
+</LinearLayout>
